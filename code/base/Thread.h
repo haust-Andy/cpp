@@ -7,7 +7,7 @@
 #include <functional>
 #include <thread>
 
-class Thread : noncopyable
+class Thread
 {
 public:
     using ThreadFunc = std::function<void()>;
